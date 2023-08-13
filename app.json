@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Quran Mobile",
+    "slug": "quran-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/new-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0369A1"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildIdentifier": "com.dianprasetyo.quranmobile",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/logo.png",
+        "backgroundColor": "#0369A1"
+      },
+      "package": "com.dianprasetyo.quranmobile",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f86df47b-49a0-410f-a2df-f6305c415de7"
+      }
+    },
+    "owner": "dianp"
+  }
+}
